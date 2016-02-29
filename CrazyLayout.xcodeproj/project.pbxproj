@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D3A56751BF235F500676EB4 /* Dot.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A56741BF235F500676EB4 /* Dot.xib */; };
+		2D3A56761BF235F500676EB4 /* Dot.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A56741BF235F500676EB4 /* Dot.xib */; };
+		2D3A56791BF2391900676EB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A56781BF2391900676EB4 /* Constants.swift */; };
+		2D3A567A1BF2391900676EB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A56781BF2391900676EB4 /* Constants.swift */; };
+		2D3A56851BF246C500676EB4 /* ClockHandsInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A56841BF246C500676EB4 /* ClockHandsInvalidationContext.swift */; };
+		2D3A56861BF246C500676EB4 /* ClockHandsInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A56841BF246C500676EB4 /* ClockHandsInvalidationContext.swift */; };
+		2D3A56891BF4A60F00676EB4 /* smallhand.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A56881BF4A60F00676EB4 /* smallhand.xib */; };
+		2D3A568A1BF4A60F00676EB4 /* smallhand.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A56881BF4A60F00676EB4 /* smallhand.xib */; };
+		2D3A568D1BF4A62900676EB4 /* largehand.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A568C1BF4A62900676EB4 /* largehand.xib */; };
+		2D3A568E1BF4A62900676EB4 /* largehand.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A568C1BF4A62900676EB4 /* largehand.xib */; };
+		2D3A56911BF5CF0B00676EB4 /* secondshand.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A56901BF5CF0B00676EB4 /* secondshand.xib */; };
+		2D3A56921BF5CF0B00676EB4 /* secondshand.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A56901BF5CF0B00676EB4 /* secondshand.xib */; };
+		2D83CB791BF0922800A75B64 /* Sanity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83CB781BF0922800A75B64 /* Sanity.swift */; };
+		2D83CB7A1BF0922800A75B64 /* Sanity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83CB781BF0922800A75B64 /* Sanity.swift */; };
+		2D83CB7D1BF0B01600A75B64 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83CB7C1BF0B01600A75B64 /* Clock.swift */; };
+		2D83CB7E1BF0B01600A75B64 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83CB7C1BF0B01600A75B64 /* Clock.swift */; };
+		2D83CB821BF0EF1900A75B64 /* ClockHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D83CB811BF0EF1900A75B64 /* ClockHeader.xib */; };
+		2D83CB831BF0EF1900A75B64 /* ClockHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D83CB811BF0EF1900A75B64 /* ClockHeader.xib */; };
+		2D83CB861BF104DB00A75B64 /* ClockHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83CB851BF104DB00A75B64 /* ClockHeaderCell.swift */; };
+		2D83CB871BF104DB00A75B64 /* ClockHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83CB851BF104DB00A75B64 /* ClockHeaderCell.swift */; };
+		2D907D021BECAD91003210A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D907D011BECAD91003210A4 /* AppDelegate.swift */; };
+		2D907D041BECAD91003210A4 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D907D031BECAD91003210A4 /* ClockViewController.swift */; };
+		2D907D071BECAD91003210A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D907D051BECAD91003210A4 /* Main.storyboard */; };
+		2D907D091BECAD91003210A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D907D081BECAD91003210A4 /* Assets.xcassets */; };
+		2D907D0C1BECAD91003210A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D907D0A1BECAD91003210A4 /* LaunchScreen.storyboard */; };
+		2D907D171BECAD91003210A4 /* CrazyLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D907D161BECAD91003210A4 /* CrazyLayoutTests.swift */; };
+		2D907D301BECB0B6003210A4 /* RadialLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D907D2F1BECB0B6003210A4 /* RadialLayout.swift */; };
+		2D907D311BECB0B6003210A4 /* RadialLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D907D2F1BECB0B6003210A4 /* RadialLayout.swift */; };
+		2D907D341BECC194003210A4 /* CrazyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D907D331BECC194003210A4 /* CrazyCell.swift */; };
+		2D907D351BECC194003210A4 /* CrazyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D907D331BECC194003210A4 /* CrazyCell.swift */; };
+		2DE76A521BF9D30A005C790A /* ClockTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76A511BF9D30A005C790A /* ClockTranslator.swift */; };
+		2DE76A531BF9D30A005C790A /* ClockTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76A511BF9D30A005C790A /* ClockTranslator.swift */; };
+		2DE76A561BF9D348005C790A /* TestClockTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76A551BF9D348005C790A /* TestClockTranslator.swift */; };
+		2DE76A581BF9D531005C790A /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76A571BF9D531005C790A /* DateExtensions.swift */; };
+		2DE76A591BF9D531005C790A /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76A571BF9D531005C790A /* DateExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D907D131BECAD91003210A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D907CF61BECAD91003210A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D907CFD1BECAD91003210A4;
+			remoteInfo = CrazyLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D3A56741BF235F500676EB4 /* Dot.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Dot.xib; sourceTree = "<group>"; };
+		2D3A56781BF2391900676EB4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2D3A56841BF246C500676EB4 /* ClockHandsInvalidationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClockHandsInvalidationContext.swift; path = CrazyLayout/ClockHandsInvalidationContext.swift; sourceTree = "<group>"; };
+		2D3A56881BF4A60F00676EB4 /* smallhand.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = smallhand.xib; sourceTree = "<group>"; };
+		2D3A568C1BF4A62900676EB4 /* largehand.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = largehand.xib; sourceTree = "<group>"; };
+		2D3A56901BF5CF0B00676EB4 /* secondshand.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondshand.xib; sourceTree = "<group>"; };
+		2D83CB781BF0922800A75B64 /* Sanity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sanity.swift; sourceTree = "<group>"; };
+		2D83CB7C1BF0B01600A75B64 /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		2D83CB811BF0EF1900A75B64 /* ClockHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClockHeader.xib; sourceTree = "<group>"; };
+		2D83CB851BF104DB00A75B64 /* ClockHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockHeaderCell.swift; sourceTree = "<group>"; };
+		2D907CFE1BECAD91003210A4 /* CrazyLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D907D011BECAD91003210A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D907D031BECAD91003210A4 /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
+		2D907D061BECAD91003210A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D907D081BECAD91003210A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D907D0B1BECAD91003210A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D907D0D1BECAD91003210A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D907D121BECAD91003210A4 /* CrazyLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D907D161BECAD91003210A4 /* CrazyLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyLayoutTests.swift; sourceTree = "<group>"; };
+		2D907D181BECAD91003210A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D907D211BECAD91003210A4 /* CrazyLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyLayoutUITests.swift; sourceTree = "<group>"; };
+		2D907D231BECAD91003210A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D907D2F1BECB0B6003210A4 /* RadialLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialLayout.swift; sourceTree = "<group>"; };
+		2D907D331BECC194003210A4 /* CrazyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyCell.swift; sourceTree = "<group>"; };
+		2DE76A511BF9D30A005C790A /* ClockTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockTranslator.swift; sourceTree = "<group>"; };
+		2DE76A551BF9D348005C790A /* TestClockTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClockTranslator.swift; sourceTree = "<group>"; };
+		2DE76A571BF9D531005C790A /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D907CFB1BECAD91003210A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D907D0F1BECAD91003210A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D907CF51BECAD91003210A4 = {
+			isa = PBXGroup;
+			children = (
+				2D3A56841BF246C500676EB4 /* ClockHandsInvalidationContext.swift */,
+				2D907D001BECAD91003210A4 /* CrazyLayout */,
+				2D907D151BECAD91003210A4 /* CrazyLayoutTests */,
+				2D907D201BECAD91003210A4 /* CrazyLayoutUITests */,
+				2D907CFF1BECAD91003210A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D907CFF1BECAD91003210A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D907CFE1BECAD91003210A4 /* CrazyLayout.app */,
+				2D907D121BECAD91003210A4 /* CrazyLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D907D001BECAD91003210A4 /* CrazyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2DE76A511BF9D30A005C790A /* ClockTranslator.swift */,
+				2DE76A571BF9D531005C790A /* DateExtensions.swift */,
+				2D3A568C1BF4A62900676EB4 /* largehand.xib */,
+				2D83CB811BF0EF1900A75B64 /* ClockHeader.xib */,
+				2D3A56781BF2391900676EB4 /* Constants.swift */,
+				2D83CB851BF104DB00A75B64 /* ClockHeaderCell.swift */,
+				2D83CB781BF0922800A75B64 /* Sanity.swift */,
+				2D907D011BECAD91003210A4 /* AppDelegate.swift */,
+				2D907D031BECAD91003210A4 /* ClockViewController.swift */,
+				2D907D051BECAD91003210A4 /* Main.storyboard */,
+				2D907D331BECC194003210A4 /* CrazyCell.swift */,
+				2D907D081BECAD91003210A4 /* Assets.xcassets */,
+				2D907D0A1BECAD91003210A4 /* LaunchScreen.storyboard */,
+				2D907D0D1BECAD91003210A4 /* Info.plist */,
+				2D907D2F1BECB0B6003210A4 /* RadialLayout.swift */,
+				2D83CB7C1BF0B01600A75B64 /* Clock.swift */,
+				2D3A56741BF235F500676EB4 /* Dot.xib */,
+				2D3A56881BF4A60F00676EB4 /* smallhand.xib */,
+				2D3A56901BF5CF0B00676EB4 /* secondshand.xib */,
+			);
+			path = CrazyLayout;
+			sourceTree = "<group>";
+		};
+		2D907D151BECAD91003210A4 /* CrazyLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D907D161BECAD91003210A4 /* CrazyLayoutTests.swift */,
+				2D907D181BECAD91003210A4 /* Info.plist */,
+				2DE76A551BF9D348005C790A /* TestClockTranslator.swift */,
+			);
+			path = CrazyLayoutTests;
+			sourceTree = "<group>";
+		};
+		2D907D201BECAD91003210A4 /* CrazyLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D907D211BECAD91003210A4 /* CrazyLayoutUITests.swift */,
+				2D907D231BECAD91003210A4 /* Info.plist */,
+			);
+			path = CrazyLayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D907CFD1BECAD91003210A4 /* CrazyLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D907D261BECAD91003210A4 /* Build configuration list for PBXNativeTarget "CrazyLayout" */;
+			buildPhases = (
+				2D907CFA1BECAD91003210A4 /* Sources */,
+				2D907CFB1BECAD91003210A4 /* Frameworks */,
+				2D907CFC1BECAD91003210A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyLayout;
+			productName = CrazyLayout;
+			productReference = 2D907CFE1BECAD91003210A4 /* CrazyLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D907D111BECAD91003210A4 /* CrazyLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D907D291BECAD91003210A4 /* Build configuration list for PBXNativeTarget "CrazyLayoutTests" */;
+			buildPhases = (
+				2D907D0E1BECAD91003210A4 /* Sources */,
+				2D907D0F1BECAD91003210A4 /* Frameworks */,
+				2D907D101BECAD91003210A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D907D141BECAD91003210A4 /* PBXTargetDependency */,
+			);
+			name = CrazyLayoutTests;
+			productName = CrazyLayoutTests;
+			productReference = 2D907D121BECAD91003210A4 /* CrazyLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D907CF61BECAD91003210A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MM;
+				TargetAttributes = {
+					2D907CFD1BECAD91003210A4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					2D907D111BECAD91003210A4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2D907CFD1BECAD91003210A4;
+					};
+				};
+			};
+			buildConfigurationList = 2D907CF91BECAD91003210A4 /* Build configuration list for PBXProject "CrazyLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D907CF51BECAD91003210A4;
+			productRefGroup = 2D907CFF1BECAD91003210A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D907CFD1BECAD91003210A4 /* CrazyLayout */,
+				2D907D111BECAD91003210A4 /* CrazyLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D907CFC1BECAD91003210A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3A56891BF4A60F00676EB4 /* smallhand.xib in Resources */,
+				2D907D0C1BECAD91003210A4 /* LaunchScreen.storyboard in Resources */,
+				2D3A56911BF5CF0B00676EB4 /* secondshand.xib in Resources */,
+				2D83CB821BF0EF1900A75B64 /* ClockHeader.xib in Resources */,
+				2D3A568D1BF4A62900676EB4 /* largehand.xib in Resources */,
+				2D907D091BECAD91003210A4 /* Assets.xcassets in Resources */,
+				2D907D071BECAD91003210A4 /* Main.storyboard in Resources */,
+				2D3A56751BF235F500676EB4 /* Dot.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D907D101BECAD91003210A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3A568E1BF4A62900676EB4 /* largehand.xib in Resources */,
+				2D3A568A1BF4A60F00676EB4 /* smallhand.xib in Resources */,
+				2D83CB831BF0EF1900A75B64 /* ClockHeader.xib in Resources */,
+				2D3A56921BF5CF0B00676EB4 /* secondshand.xib in Resources */,
+				2D3A56761BF235F500676EB4 /* Dot.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D907CFA1BECAD91003210A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE76A521BF9D30A005C790A /* ClockTranslator.swift in Sources */,
+				2D83CB7D1BF0B01600A75B64 /* Clock.swift in Sources */,
+				2D83CB791BF0922800A75B64 /* Sanity.swift in Sources */,
+				2D3A56851BF246C500676EB4 /* ClockHandsInvalidationContext.swift in Sources */,
+				2D907D041BECAD91003210A4 /* ClockViewController.swift in Sources */,
+				2DE76A581BF9D531005C790A /* DateExtensions.swift in Sources */,
+				2D83CB861BF104DB00A75B64 /* ClockHeaderCell.swift in Sources */,
+				2D907D021BECAD91003210A4 /* AppDelegate.swift in Sources */,
+				2D907D301BECB0B6003210A4 /* RadialLayout.swift in Sources */,
+				2D907D341BECC194003210A4 /* CrazyCell.swift in Sources */,
+				2D3A56791BF2391900676EB4 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D907D0E1BECAD91003210A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D907D311BECB0B6003210A4 /* RadialLayout.swift in Sources */,
+				2D907D171BECAD91003210A4 /* CrazyLayoutTests.swift in Sources */,
+				2D907D351BECC194003210A4 /* CrazyCell.swift in Sources */,
+				2D83CB871BF104DB00A75B64 /* ClockHeaderCell.swift in Sources */,
+				2D3A567A1BF2391900676EB4 /* Constants.swift in Sources */,
+				2DE76A591BF9D531005C790A /* DateExtensions.swift in Sources */,
+				2DE76A531BF9D30A005C790A /* ClockTranslator.swift in Sources */,
+				2D83CB7A1BF0922800A75B64 /* Sanity.swift in Sources */,
+				2D83CB7E1BF0B01600A75B64 /* Clock.swift in Sources */,
+				2DE76A561BF9D348005C790A /* TestClockTranslator.swift in Sources */,
+				2D3A56861BF246C500676EB4 /* ClockHandsInvalidationContext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D907D141BECAD91003210A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D907CFD1BECAD91003210A4 /* CrazyLayout */;
+			targetProxy = 2D907D131BECAD91003210A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D907D051BECAD91003210A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D907D061BECAD91003210A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D907D0A1BECAD91003210A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D907D0B1BECAD91003210A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D907D241BECAD91003210A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D907D251BECAD91003210A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D907D271BECAD91003210A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CrazyLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.thecodething.CrazyLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D907D281BECAD91003210A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CrazyLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.thecodething.CrazyLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D907D2A1BECAD91003210A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CrazyLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.thecodething.CrazyLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyLayout.app/CrazyLayout";
+			};
+			name = Debug;
+		};
+		2D907D2B1BECAD91003210A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CrazyLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.thecodething.CrazyLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyLayout.app/CrazyLayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D907CF91BECAD91003210A4 /* Build configuration list for PBXProject "CrazyLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D907D241BECAD91003210A4 /* Debug */,
+				2D907D251BECAD91003210A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D907D261BECAD91003210A4 /* Build configuration list for PBXNativeTarget "CrazyLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D907D271BECAD91003210A4 /* Debug */,
+				2D907D281BECAD91003210A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D907D291BECAD91003210A4 /* Build configuration list for PBXNativeTarget "CrazyLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D907D2A1BECAD91003210A4 /* Debug */,
+				2D907D2B1BECAD91003210A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D907CF61BECAD91003210A4 /* Project object */;
+}
